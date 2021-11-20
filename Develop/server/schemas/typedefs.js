@@ -28,7 +28,7 @@ const typeDefs = gql`
   type Query {
     getSingleUser: User
   }
-  
+
   type Auth {
     token: ID!
     user: User
@@ -36,9 +36,9 @@ const typeDefs = gql`
 
   input bookInput {
     bookId: String
+    title: String
     authors: [String]
     description: String
-    title: String
     image: String
     link: String
   }
