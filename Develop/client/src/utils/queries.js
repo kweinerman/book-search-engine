@@ -6,12 +6,12 @@ export const GET_USER = gql`
       username
       email
       savedBooks {
-        bookId
         title
-        authors
         description
-        link
+        bookId
         image
+        link
+        authors
       }
     }
   }
